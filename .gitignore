@@ -1,0 +1,11 @@
+﻿dataset/
+models/*.h5
+__pycache__/
+*.pyc
+*.db
+.vscode/
+.idea/
+.DS_Store
+Thumbbs.db
+venv/
+env/
