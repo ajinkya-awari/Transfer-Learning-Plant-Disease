@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1-Score
+VGG16,98.45,98.46,98.45,98.45
+ResNet50,99.76,99.76,99.76,99.76
+EfficientNetB0,99.3,99.31,99.3,99.3
