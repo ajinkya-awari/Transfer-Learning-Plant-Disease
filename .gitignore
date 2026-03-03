@@ -1,0 +1,26 @@
+# dataset is too large for GitHub
+dataset/
+
+# trained model weights
+models/*.h5
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# SQLite database (local only)
+*.db
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# virtual environments
+venv/
+env/
