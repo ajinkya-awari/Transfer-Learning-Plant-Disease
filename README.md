@@ -150,18 +150,6 @@ Register a new account, log in, and use the graphical interface to pick images a
 
 ---
 
-## Screenshots
-
-### Login Window
-
-The application opens with a login screen. New users can create an account through the registration form.
-
-### Prediction GUI
-
-After logging in, the main application lets you select a model (VGG16 / ResNet50 / EfficientNetB0), load a leaf image, and see the top-3 predictions with confidence scores.
-
----
-
 ## Results
 
 ### Metrics Comparison
