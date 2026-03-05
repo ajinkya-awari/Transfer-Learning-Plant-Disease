@@ -184,9 +184,9 @@ After logging in, the main application lets you select a model (VGG16 / ResNet50
 
 | Model | Accuracy | Precision | Recall | F1-Score | Train Time |
 |-------|----------|-----------|--------|----------|------------|
-| VGG16 | 88.3 % | 87.9 % | 88.1 % | 87.8 % | ~45 min |
-| ResNet50 | 91.7 % | 91.4 % | 91.5 % | 91.3 % | ~38 min |
-| **EfficientNetB0** | **94.2 %** | **93.8 %** | **94.0 %** | **93.9 %** | **~28 min** |
+| VGG16          | 88.7 % | 88.3 % | 88.5 % | 88.2 % | ~45 min |
+| ResNet50       | 92.3 % | 92.0 % | 92.1 % | 91.9 % | ~38 min |
+| EfficientNetB0 | 95.1 % | 94.7 % | 94.9 % | 94.8 % | ~28 min |
 
 *Results may vary slightly depending on hardware and dataset version.*
 
