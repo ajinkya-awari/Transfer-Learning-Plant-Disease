@@ -154,19 +154,19 @@ Register a new account, log in, and use the graphical interface to pick images a
 
 ### Metrics Comparison
 
-![Metrics Bar Chart](results/metrics_comparison_bar.png)
+![Metrics Bar Chart](metrics_comparison_bar.png)
 
 ### Training History
 
-![Training History](results/training_history_comparison.png)
+![Training History](training_history_comparison.png)
 
 ### Radar Chart
 
-![Radar Chart](results/radar_chart_comparison.png)
+![Radar Chart](training_history_comparison.png)
 
 ### Dataset Samples
 
-![Dataset Samples](results/dataset_samples.png)
+![Dataset Samples](summary_dashboard.png)
 
 ### Summary Table
 
