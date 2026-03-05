@@ -164,9 +164,6 @@ Register a new account, log in, and use the graphical interface to pick images a
 
 ![Radar Chart](training_history_comparison.png)
 
-### Dataset Samples
-
-![Dataset Samples](summary_dashboard.png)
 
 ### Summary Table
 
