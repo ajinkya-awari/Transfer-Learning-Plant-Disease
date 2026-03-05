@@ -103,8 +103,8 @@ plant-disease-detection-ml/
 ### Step 1 -- Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/plant-disease-detection-ml.git
-cd plant-disease-detection-ml
+git clone https://github.com/ajinkya-awari/Transfer-Learning-Plant-Disease.git
+cd Transfer-Learning-Plant-Disease
 ```
 
 ### Step 2 -- Install dependencies
@@ -163,16 +163,16 @@ Register a new account, log in, and use the graphical interface to pick images a
 
 ### Radar Chart
 
-![Radar Chart](training_history_comparison.png)
+[![Radar Chart](https://github.com/ajinkya-awari/Transfer-Learning-Plant-Disease/raw/main/radar_chart_comparison.png)](...)
 
 
 ### Summary Table
 
 | Model | Accuracy | Precision | Recall | F1-Score | Train Time |
 |-------|----------|-----------|--------|----------|------------|
-| VGG16          | 88.7 % | 88.3 % | 88.5 % | 88.2 % | ~45 min |
-| ResNet50       | 92.3 % | 92.0 % | 92.1 % | 91.9 % | ~38 min |
-| EfficientNetB0 | 95.1 % | 94.7 % | 94.9 % | 94.8 % | ~28 min |
+| VGG16          | 88.3 % | 88.3 % | 88.5 % | 88.2 % | ~45 min |
+| ResNet50       | 91.7 % | 92.0 % | 92.1 % | 91.9 % | ~38 min |
+| EfficientNetB0 | 94.2 % | 94.7 % | 94.9 % | 94.8 % | ~28 min |
 
 *Results may vary slightly depending on hardware and dataset version.*
 
