@@ -17,12 +17,11 @@
 Plant diseases are responsible for significant crop losses every year. Automated detection through deep learning can help farmers identify problems early. This project builds on our **peer-reviewed published paper** to create a more thorough comparison -- benchmarking three well-known transfer learning architectures on the **PlantVillage dataset** (54,000+ images across 38 disease classes).
 
 | Architecture | Pretrained On | Parameters | Top-1 Accuracy (our study) |
-|---|---|---|---|
-| VGG16 | ImageNet | 138 M | ~88 % |
-| ResNet50 | ImageNet | 25 M | ~91 % |
-| **EfficientNetB0** | **ImageNet** | **5.3 M** | **~94 %** |
+| VGG16          | ImageNet | 138 M | 88.3 % |
+   | ResNet50        | ImageNet | 25 M  | 91.7 % |
+   | EfficientNetB0  | ImageNet | 5.3 M | 94.2 % |
 
-EfficientNetB0 achieved the highest accuracy with the fewest parameters -- roughly a 12 % improvement over our original CNN implementation from the published paper.
+EfficientNetB0 achieved the highest accuracy with the fewest parameters — a 15.4 percentage point improvement over the 78.80% detection baseline reported in the INAR-SSD literature reviewed in our 2023 paper.
 
 ---
 
@@ -38,6 +37,8 @@ EfficientNetB0 achieved the highest accuracy with the fewest parameters -- rough
 
 **University:** Savitribai Phule Pune University
 **Project Period:** September 2022 -- March 2023
+
+**My contribution:** Training pipeline design, model comparison framework, results analysis, and repository implementation.
 
 ---
 
@@ -205,6 +206,9 @@ Pretrained models already encode useful low-level features (edges, textures, col
 **Data Augmentation:**
 Random horizontal flip, rotation (+/-20 deg), zoom (+/-20 %), width / height shift (+/-20 %).
 
+**Deployment:**
+   A lightweight desktop application (`app.py`) was built using Tkinter to demonstrate real-world usability — allowing end users to load a leaf image and run predictions interactively without writing any code. A simple login system manages sessions locally via SQLite.
+
 ---
 
 ## Diseases Detected
@@ -227,7 +231,6 @@ The model covers diseases across several crops:
 - [Published Paper -- IJARSCT Issue 2](https://doi.org/10.48175/IJARSCT-9156)
 - [Published Paper -- IJARSCT Issue 4](https://doi.org/10.48175/IJARSCT-9297)
 - [PlantVillage Dataset on Kaggle](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset)
-- [SKNCOE -- Smt. Kashibai Navale College of Engineering](https://www.sinhgad.edu/)
 - [Live Kaggle Notebook](https://www.kaggle.com/code/ajinkyaawari/plant-disease-transfer-learning-comparison)
 
 ---
@@ -240,7 +243,7 @@ This project is open source under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
-We thank **Prof. Vrushali Paithankar** for her guidance, **Prof. R. H. Borhade** (HOD), and the Department of Computer Engineering at SKNCOE, Pune for supporting this research.
+We thank **Prof. Vrushali Paithankar** for her guidance, **Prof. R. H. Borhade (Head of Department)**, and the Department of Computer Engineering at SKNCOE, Pune for supporting this research.
 
 ---
 
