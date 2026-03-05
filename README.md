@@ -243,6 +243,7 @@ The model covers diseases across several crops:
 - [Published Paper -- IJARSCT Issue 4](https://doi.org/10.48175/IJARSCT-9297)
 - [PlantVillage Dataset on Kaggle](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset)
 - [SKNCOE -- Smt. Kashibai Navale College of Engineering](https://www.sinhgad.edu/)
+- [Live Kaggle Notebook](https://www.kaggle.com/code/ajinkyaawari/plant-disease-transfer-learning-comparison)
 
 ---
 
