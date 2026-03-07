@@ -21,7 +21,7 @@ Plant diseases are responsible for significant crop losses every year. Automated
    | ResNet50        | ImageNet | 25 M  | 91.7 % |
    | EfficientNetB0  | ImageNet | 5.3 M | 94.2 % |
 
-EfficientNetB0 achieved the highest accuracy with the fewest parameters — a 15.4 percentage point improvement over the 78.80% detection baseline reported in the INAR-SSD literature reviewed in our 2023 paper.
+EfficientNetB0 achieved the highest accuracy with the fewest parameters, a 15.4 percentage point improvement over the 78.80% detection baseline reported in the INAR-SSD literature reviewed in our 2023 paper.
 
 ---
 
@@ -33,7 +33,7 @@ EfficientNetB0 achieved the highest accuracy with the fewest parameters — a 15
 | **Akash Bhausaheb Raskar** | Student Researcher | Dept. of Computer Engineering, SKNCOE, Pune |
 | **Shrirameshwar Bhavlal Patil** | Student Researcher | Dept. of Computer Engineering, SKNCOE, Pune |
 | **Namrata Amrutsing Jamdar** | Student Researcher | Dept. of Computer Engineering, SKNCOE, Pune |
-| Prof. Vrushali Paithankar | Guide / Supervisor | Asst. Professor, SKNCOE, Pune |
+| **Prof. Vrushali Paithankar** | Guide / Supervisor | Asst. Professor, SKNCOE, Pune |
 
 **University:** Savitribai Phule Pune University
 **Project Period:** September 2022 -- March 2023
@@ -204,10 +204,10 @@ VGG16     ResNet50   EfficientNetB0
 Pretrained models already encode useful low-level features (edges, textures, colour patterns). Fine-tuning them requires far less data and compute than training from scratch and typically yields higher accuracy on smaller datasets like PlantVillage.
 
 **Data Augmentation:**
-Random horizontal flip, rotation (+/-20 deg), zoom (+/-20 %), width / height shift (+/-20 %).
+Random horizontal flip, rotation (+/-20 deg), zoom (+/-20 %), width/height shift (+/-20 %).
 
 **Deployment:**
-   A lightweight desktop application (`app.py`) was built using Tkinter to demonstrate real-world usability — allowing end users to load a leaf image and run predictions interactively without writing any code. A simple login system manages sessions locally via SQLite.
+   A lightweight desktop application (`app.py`) was built using Tkinter to demonstrate real-world usability, allowing end users to load a leaf image and run predictions interactively without writing any code. A simple login system manages sessions locally via SQLite.
 
 ---
 
@@ -243,7 +243,7 @@ This project is open source under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
-We thank **Prof. Vrushali Paithankar** for her guidance, **Prof. R. H. Borhade (Head of Department)**, and the Department of Computer Engineering at SKNCOE, Pune for supporting this research.
+We thank **Prof. Vrushali Paithankar** for her guidance, **Prof. R. H. Borhade (Head of Department)**, and the Department of Computer Engineering at SKNCOE, Pune, for supporting this research.
 
 ---
 
